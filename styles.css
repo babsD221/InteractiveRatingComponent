@@ -1,0 +1,84 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color:hsl(216, 12%, 8%);
+    width: 350px;
+    height: 350px;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.img_div {
+    padding-top: 5%;
+}
+
+.fig {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+}
+img {
+    padding-top: 10px;
+}
+
+h2 {
+    color: white;
+    padding-left: 7%;
+}
+p {
+    color: hsl(217, 12%, 63%);
+    padding-left: 7%;
+}
+
+.notation {
+    padding: 4% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+}
+
+.numberCircleSelected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.numberCircle:hover {
+    background-color: white;
+
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    font-size:1rem ;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    width: 90%;
+    height: 8%;
+    margin-left: 3.5%;
+
+}
+
+button:hover {
+    background-color: white;
+
+}
