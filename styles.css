@@ -11,6 +11,16 @@ body {
     margin-right: auto;
     flex-direction: column;
     border-radius: 20px;
+    position: relative;
+}
+
+.ratings {
+    height: 100%;
+    position: absolute;
+}
+
+.hideRatings {
+    visibility: hidden;
 }
 
 .img_div {
@@ -57,12 +67,11 @@ p {
 }
 
 .numberCircleSelected {
-    background-color: hsl(25, 97%, 53%);
-    color: white;
+    background-color: white;
 }
 
 .numberCircle:hover {
-    background-color: white;
+    background-color: hsl(25, 97%, 53%);
 
 }
 
@@ -81,4 +90,16 @@ button {
 button:hover {
     background-color: white;
 
+}
+
+.thanking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    justify-content: space-evenly;
+}
+.hideThanking {
+    visibility: hidden;
 }
